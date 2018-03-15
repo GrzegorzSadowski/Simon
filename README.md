@@ -1,2 +1,2 @@
 # Simon
-Easy memory game
+Easy memory game based on a game from '80
