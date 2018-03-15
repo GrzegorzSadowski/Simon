@@ -1,0 +1,160 @@
+body {
+  background: url("https://static.pexels.com/photos/518245/pexels-photo-518245.jpeg");
+  background-size: cover;
+  font-family: 'Timmana', sans-serif;
+  color: black;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.simonBoard {
+  margin: 0 auto;
+  margin-top: 50px;
+  border: solid 5px black;
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+}
+
+.press {
+  margin: -1px;
+  float: left;
+  position: relative;
+  width:240px;
+  height: 240px;
+  z-index: 8;
+  border: 5px solid black;
+  padding: 1px;
+}
+
+.green {
+  background-color:#45D23A;
+  border-radius: 300px 0 0 0;    
+}
+
+.active0 {
+  background-color: #51C128 !important;
+}
+
+.red {
+  background-color: #FD3557;
+  border-radius: 0 300px 0 0;
+}
+
+.active1 {
+  background-color: #E82936 !important;
+}
+
+.yellow {
+  background-color: #E5DA3B;
+  border-radius: 0 0 0 300px;
+}
+
+.active2 {
+  background-color: #FCEE2B !important;
+}
+
+.blue {
+  background-color: #358CFD;
+  border-radius: 0 0 300px 0;
+}
+
+.active3 {
+  background-color: #287FC1 !important;
+}
+
+.board-controls {
+  border: 5px solid black;
+  height: 230px;
+  width: 230px;
+  border-radius: 150px;
+  background-color: white;
+  clear: both;
+  position: absolute;
+  z-index: 10;
+  margin-top: 130px;
+  margin-left: 130px; 
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.display {  
+  border: solid 2px black;
+  border-radius: 5px;
+  color: black;
+  width: 45px;
+  height: 40px;
+  font-size: 35px;
+  background-color: #8E7C7C;
+}
+
+.start, .strict {
+  transition: all .1s ease;
+  text-align: center;
+  margin: 0px;
+  margin-left: 20px;
+  border: solid 3px black;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  color: black;
+  line-height: 55px;
+}
+
+.start {  
+  background-color: red;
+}
+
+ .strict {
+  background-color: yellow;
+}
+
+.switch-container {
+  margin-top: 10px;
+}
+
+.outter-switch {
+  border: solid 2px black;
+  width: 60px;
+  height: 25px;
+  background-color: black;  
+}
+
+.outter-active {
+  background-color: gray !important;
+}
+
+.inner-switch {
+  background-color: gray;
+  width: 30px;
+  height: 25px;
+  position: relative !important;
+}
+
+.inner-inactive {
+  background-color: black !important;
+}
+.flash{
+  border: solid 1px black;
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  
+}
