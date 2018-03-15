@@ -70,7 +70,7 @@ if(color===simon.pattern[simon.step]){
     for (let i=0; i<simon.pattern.length; i++) {
     setTimeout(() => {simon.effects(simon.pattern[i]);}, 1000+(i*1000))};
     setTimeout(function(){document.querySelector(" .display").innerText = (simon.counter);simon.addEvents();},1000*simon.pattern.length);},500);
-    },
+    }
                         },
   pattern: [],
   
