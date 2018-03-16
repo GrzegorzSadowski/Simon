@@ -35,39 +35,39 @@ h1 {
 }
 
 .green {
-  background-color:#45D23A;
-  border-radius: 300px 0 0 0;    
+    background-color:#003300;
+    border-radius: 300px 0 0 0;    
 }
 
 .active0 {
-  background-color: #51C128 !important;
+  background-color: #33cc33 !important;
 }
 
 .red {
-  background-color: #FD3557;
+  background-color: #990000;
   border-radius: 0 300px 0 0;
 }
 
 .active1 {
-  background-color: #E82936 !important;
+  background-color: #ff8080 !important;
 }
 
 .yellow {
-  background-color: #E5DA3B;
+  background-color:  #ff9900;
   border-radius: 0 0 0 300px;
 }
 
 .active2 {
-  background-color: #FCEE2B !important;
+  background-color: #ffff99 !important;
 }
 
 .blue {
-  background-color: #358CFD;
+  background-color: #000066;
   border-radius: 0 0 300px 0;
 }
 
 .active3 {
-  background-color: #287FC1 !important;
+  background-color: #3366ff !important;
 }
 
 .board-controls {
